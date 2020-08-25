@@ -1,5 +1,5 @@
-# DS-Algo
-Data Structure &amp; Algorithm in C++
+# Data Structure
+Data Structure in C++
 
 
 
