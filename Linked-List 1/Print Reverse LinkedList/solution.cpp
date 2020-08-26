@@ -85,8 +85,7 @@ void printReverse(Node* head)
     }
     
     printReverse(head -> next);
-    
-	cout << head->data << " ";
+    cout << head->data << " ";
     
     
     
