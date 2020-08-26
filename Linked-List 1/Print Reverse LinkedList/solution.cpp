@@ -36,6 +36,8 @@ Sample Output 2 :
 */
 
 #include <iostream>
+using namespace std;
+
 
 class Node
 {
@@ -49,8 +51,7 @@ public:
 	}
 };
 
-using namespace std;
-#include "solution.h"
+
 
 Node *takeinput()
 {
@@ -75,16 +76,15 @@ Node *takeinput()
 	return head;
 }
 
-void print_linkedlist_spl(node*head)
+void printReverse(Node* head)
 {
 
-    //node * temp = head;
     if(head == NULL) {
         return;
-        cout << head -> data;
+        //cout << head -> data;
     }
     
-    print_linkedlist_spl(head -> next);
+    printReverse(head -> next);
     
 	cout << head->data << " ";
     
